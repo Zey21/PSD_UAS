@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 # Mengimpor model dari file eksternal
-with open('D:\projectPSD\model_knn.pkl', 'rb') as file:
+with open('model_knn.pkl', 'rb') as file:
     knn = pickle.load(file)
 
 st.title("Aplikasi PBA-NLP")
